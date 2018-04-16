@@ -1,3 +1,4 @@
+# pylint: disable=E0110
 # 1. get all stock names
 # 2. get all information about them and save in csv file
 # stock_price: price , date
@@ -7,6 +8,7 @@ import pandas as pd
 import os
 import requests
 import json 
+
 
 class GetStockData:
     def __init__(self):
